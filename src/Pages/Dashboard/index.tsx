@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout, Row, Col } from 'antd';
+import { Layout } from 'antd';
 import TableBooking from "./TableBooking"
 import SideBar from "../Layout/SideBar"
 import HeaderBar from "../Layout/HeaderBar"
@@ -17,7 +17,6 @@ const DashBoard: React.FC = () => {
                         <div className='search-dash'><h2 className='dash'>DashBoard</h2>
                             <SearchInput />
                         </div>
-
                         <TotalDash />
                         <TableBooking />
                     </Layout>

@@ -10,9 +10,7 @@ import RoomType_3 from "../../Img/land-room-type-3.svg";
 import RoomType_4 from "../../Img/land-room-type-4.svg";
 import RoomType_5 from "../../Img/land-room-type-5.svg";
 import RoomType_6 from "../../Img/land-room-type-6.svg";
-import RoomType_7 from "../../Img/land-room-type-7.svg";
-import RoomType_8 from "../../Img/land-room-type-8.svg";
-import React from 'react';
+
 const RoomType = () => {
     const [room, setroom] = useState<any[]>([]);
     const [roomType, setroomType] = useState<any[]>([]);

@@ -2,7 +2,7 @@ import { Col, Row, Image } from 'antd';
 import { CheckCircleOutlined } from '@ant-design/icons';
 import { RoomData } from './type';
 import './Desc.css';
-import Payment_1 from '../../img/payment.svg';
+import Payment_1 from '../../Img/payment.svg';
 export default function Desc() {
     const roomData: RoomData[] = [
         {
@@ -40,7 +40,7 @@ export default function Desc() {
                             <Row className="title-line-payment">
                                 <Col span={24}>
                                     <p className="title checkmark">
-                                        <CheckCircleOutlined className='Secure' /><span >Secure Payment</span>
+                                        <CheckCircleOutlined /> Secure Payment
                                     </p>
                                 </Col>
                             </Row>

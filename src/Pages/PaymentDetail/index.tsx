@@ -8,7 +8,6 @@ import PayPalButton from './PayPalButton';
 import { PaymentDetailForm } from './type'
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import './index.css'
-import { Link } from 'react-router-dom';
 export default function PaymentDetail() {
     const [email_address, setEmail] = useState('');
     const [card_number, setCard] = useState('');

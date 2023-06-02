@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { Form, Input, Button, Row, Col } from 'antd';
 import { CloseOutlined } from '@ant-design/icons';
@@ -31,7 +32,6 @@ const SignupForm: React.FC<SignupFormProps> = ({
       toast.error('An error occurred. Please try again.');
     }
   };
-
   const [signupForm, setsignupForm] = useState<any[]>([]);
 
   useEffect(() => {
@@ -53,6 +53,7 @@ const SignupForm: React.FC<SignupFormProps> = ({
     };
 
     fetchData();
+    console.log(signupForm);
   }, []);
   return (
     <div className="signup-container">
